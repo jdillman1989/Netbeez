@@ -1,14 +1,33 @@
 /*
-Theme Name: NetBeez
-Theme URI: http: //mysite.com/
-Description: This is a custom child theme for Salient
-Author: Andocia Creative Agency
-Author URI: http://www.andocia.com
-Template: salient
-Version: 0.1
+ Theme Name:   Salient Child
+ Theme URI:    http://www.andocia.com
+ Description:  Salient Child Theme
+ Author:       Andocia
+ Author URI:   http://www.andocia.com
+ Template:     salient
+ Version:      1.0.0
 */
 
+body #header-outer header#top nav ul li.button_solid_color.menu-item a{
+	color: #000 !important;
+}
 
+.nb-icon-layouts .wpb_wrapper{
+	display: flex;
+	justify-content: center;
+}
 
+.nb-icon-layouts .wpb_wrapper .wpb_row.vc_row-fluid.vc_row.standard_section{
+	width: 33.33%;
+}
 
+@media only screen and (max-width: 1000px){
+	.row-bg-wrap .inner-wrap .row-bg.using-image{
+		margin-top: 110px !important;
+		background-size: 70%;
+	}
 
+	.nb-icon-layouts .wpb_wrapper .wpb_row.vc_row-fluid.vc_row.standard_section{
+		width: 50%;
+	}
+}
