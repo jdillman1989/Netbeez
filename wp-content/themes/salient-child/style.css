@@ -56,6 +56,10 @@ body #header-outer header#top nav ul li.button_solid_color.menu-item a{
 	display: none;
 }
 
+.ascend #footer-outer .widget h4{
+	font-size: 16px;
+}
+
 @media only screen and (max-width: 1200px){
 	.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section{
 		width: 30%;
