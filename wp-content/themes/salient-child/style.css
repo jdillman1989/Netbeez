@@ -15,19 +15,91 @@ body #header-outer header#top nav ul li.button_solid_color.menu-item a{
 .nb-icon-layouts .wpb_wrapper{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .nb-icon-layouts .wpb_wrapper .wpb_row.vc_row-fluid.vc_row.standard_section{
 	width: 33.33%;
 }
 
-@media only screen and (max-width: 1000px){
-	.row-bg-wrap .inner-wrap .row-bg.using-image{
-		margin-top: 110px !important;
-		background-size: 70%;
+.nb-icon-layouts .wpb_wrapper .img-with-aniamtion-wrap{
+	width: 100%;
+}
+
+.nb-icon-layouts .wpb_wrapper .wpb_text_column.wpb_content_element{
+	width: 100%;
+}
+
+/* container */
+.nb-purchase-plan-header .wpb_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.nb-purchase-plan-header .wpb_wrapper .wpb_wrapper{
+	display: block;
+}
+
+/* child element */
+.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section{
+	width: 40%;
+}
+
+.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section.nb-purchase-plan-header-image{
+	margin-top: -50px;
+}
+
+.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section.nb-purchase-plan-header-image img{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+@media only screen and (max-width: 1200px){
+	.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section{
+		width: 30%;
 	}
+
+	.nb-purchase-plan-header .row-bg.using-image{
+		background-size: 100%;
+	}
+
+	.nb-purchase-plan-header{
+		padding-top: 70px !important;
+	}
+}
+
+@media only screen and (max-width: 1000px){
 
 	.nb-icon-layouts .wpb_wrapper .wpb_row.vc_row-fluid.vc_row.standard_section{
 		width: 50%;
+	}
+
+	.nb-double-icon-layouts .col.span_12{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.nb-double-icon-layouts .col.span_12 .vc_col-sm-6.wpb_column.column_container.vc_column_container.col.centered-text{
+		width: 50% !important;
+	}
+
+	.nb-purchase-plan-header{
+		padding-bottom: 0 !important;
+		padding-top: 70px !important;
+	}
+
+	.nb-purchase-plan-header .row-bg.using-image{
+		background-image: none !important;
+	}
+
+	.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section{
+		width: 100%;
+	}
+
+	.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section.nb-purchase-plan-header-image img{
+		display: block;
 	}
 }
