@@ -8,6 +8,27 @@
  Version:      1.0.0
 */
 
+.error-graphic{
+	width: 85%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.error-graphic svg{
+	width: 100%;
+	height: auto;
+}
+
+body #error-404.nb-404-custom h1{
+	font-size: 80px !important;
+	line-height: 80px !important;
+}
+
+body #error-404.nb-404-custom h2{
+	text-transform: none;
+	font-size: 40px;
+}
+
 body #header-outer header#top nav ul li.button_solid_color.menu-item a{
 	color: #000 !important;
 }
