@@ -12,6 +12,7 @@
 	width: 85%;
 	margin: 0 auto;
 	max-width: 500px;
+	margin-bottom: -15px;
 }
 
 .error-graphic svg{
@@ -20,14 +21,30 @@
 }
 
 body #error-404.nb-404-custom h1{
-	font-size: 80px !important;
-	line-height: 80px !important;
+	font-size: 70px !important;
+	line-height: 50px !important;
+	color: #000;
 }
 
 body #error-404.nb-404-custom h2{
 	text-transform: none;
-	font-size: 40px;
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 25px;
 }
+
+body #error-404.nb-404-custom .nb-404-button{
+	border-radius: 5px;
+	background-color: #f9d710;
+	color: #000;
+	padding: 7px 15px;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+}
+
 
 body #header-outer header#top nav ul li.button_solid_color.menu-item a{
 	color: #000 !important;
@@ -126,5 +143,26 @@ body #header-outer header#top nav ul li.button_solid_color.menu-item a{
 
 	.nb-purchase-plan-header .wpb_row.vc_row-fluid.vc_row.standard_section.nb-purchase-plan-header-image img{
 		display: block;
+	}
+}
+
+@media only screen and (max-width: 690px){
+
+	.error-graphic{
+		width: 92%;
+		margin-bottom: 10px;
+	}
+
+	body .row #error-404.nb-404-custom h1{
+		font-size: 70px !important;
+		line-height: 50px !important;
+		color: #000;
+	}
+
+	body .row #error-404.nb-404-custom h2{
+		text-transform: none;
+		font-size: 25px;
+		color: #000;
+		margin-bottom: 25px;
 	}
 }
